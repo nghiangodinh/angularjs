@@ -65,6 +65,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="try_ng_customers_mysql.html" />
+    <Content Include="try_ng_events.html" />
+    <Content Include="try_ng_form.html" />
+    <Content Include="try_ng_form.js" />
+    <Content Include="try_ng_html_dom.html" />
+    <Content Include="try_ng_validate.html" />
+    <Content Include="try_ng_validate.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
