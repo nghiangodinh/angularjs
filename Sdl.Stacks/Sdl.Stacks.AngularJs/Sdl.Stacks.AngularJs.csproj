@@ -65,6 +65,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="customer.controller.js" />
+    <Content Include="dirty-check.html" />
     <Content Include="try_ng_customers_mysql.html" />
     <Content Include="try_ng_events.html" />
     <Content Include="try_ng_form.html" />

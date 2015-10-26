@@ -1,6 +1,16 @@
-var app = angular.module('myApp', []);
+(function () {
+	var app = angular.module('myApp', []);
+	app.controller("ValidateController", ValidateController);
 
-app.controller('validateCtrl', function ($scope) {
-	$scope.user = 'John Doe';
-	$scope.email = 'john.doe@gmail.com';
-});
+	// this = $scope
+	function ValidateController() {
+		var vm = this;
+
+		vm.user = 'John Doe';
+		vm.email = 'john.doe@gmail.com';
+	}
+
+})();
+
+
+
