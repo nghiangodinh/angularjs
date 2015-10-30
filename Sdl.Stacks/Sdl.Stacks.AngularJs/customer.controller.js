@@ -1,19 +1,19 @@
 (function () {
-	'use strict';
+  'use strict';
 
-	angular
+  angular
 			.module('app')
 			.controller('CustomerController', CustomerController);
 
-	CustomerController.$inject = ['$location'];
+  CustomerController.$inject = ['$location'];
 
-	function CustomerController($location) {
-		/* jshint validthis:true */
-		var vm = this;
-		vm.title = 'customer';
+  function CustomerController($location) {
+    /* jshint validthis:true */
+    var vm = this;
+    vm.title = 'customer';
 
-		activate();
+    activate();
 
-		function activate() { }
-	}
+    function activate() { }
+  }
 })();
