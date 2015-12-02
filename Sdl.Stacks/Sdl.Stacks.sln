@@ -7,6 +7,32 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.Stacks.AngularJs", "Sdl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.Stacks.AngularKendo", "Sdl.Stacks.AngularKendo\Sdl.Stacks.AngularKendo.csproj", "{6F03DF85-933A-4FFB-ABE1-C9E68387D3E3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "angular-web-api-front-back", "angular-web-api-front-back", "{654AC7E5-0A89-42B3-B6B6-6F372C641CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.Stacks.APM.WebAPI", "Sdl.Stacks.APM.WebAPI\Sdl.Stacks.APM.WebAPI.csproj", "{0728C6E7-AB91-4917-9A6F-4E0070481CB3}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sdl.Stacks.APM.Client", "http://localhost:15344", "{950661E5-64AF-40E1-97AD-8C8918B58C8B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_15344"
+		Debug.AspNetCompiler.PhysicalPath = "Sdl.Stacks.APM.Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_15344\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_15344"
+		Release.AspNetCompiler.PhysicalPath = "Sdl.Stacks.APM.Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_15344\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Sdl.Stacks.APM.Client\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +47,20 @@ Global
 		{6F03DF85-933A-4FFB-ABE1-C9E68387D3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F03DF85-933A-4FFB-ABE1-C9E68387D3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F03DF85-933A-4FFB-ABE1-C9E68387D3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0728C6E7-AB91-4917-9A6F-4E0070481CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0728C6E7-AB91-4917-9A6F-4E0070481CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0728C6E7-AB91-4917-9A6F-4E0070481CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0728C6E7-AB91-4917-9A6F-4E0070481CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950661E5-64AF-40E1-97AD-8C8918B58C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950661E5-64AF-40E1-97AD-8C8918B58C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950661E5-64AF-40E1-97AD-8C8918B58C8B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{950661E5-64AF-40E1-97AD-8C8918B58C8B}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0728C6E7-AB91-4917-9A6F-4E0070481CB3} = {654AC7E5-0A89-42B3-B6B6-6F372C641CEE}
+		{950661E5-64AF-40E1-97AD-8C8918B58C8B} = {654AC7E5-0A89-42B3-B6B6-6F372C641CEE}
 	EndGlobalSection
 EndGlobal
