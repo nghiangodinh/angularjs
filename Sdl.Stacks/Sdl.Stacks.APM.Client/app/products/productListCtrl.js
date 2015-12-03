@@ -11,7 +11,7 @@
 
         vm.searchCriteria = "GDN";
 
-        productResource.query({ search: vm.searchCriteria }, function (data) {
+        productResource.query({ $filter: "contains(ProductCode, 'GDN')" }, function (data) {
             vm.products = data;
         });
     }
